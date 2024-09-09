@@ -1,7 +1,7 @@
 import React from "react";
 import { AppProvider } from "./context/AppContext.jsx";
 import TotalBalance from "./components/TotalBalance/TotalBalance.jsx";
-import ExpenseToday from "./components/ExpenseToday/ExpenceToday.jsx";
+import ExpenseToday from "./components/ExpenseToday/ExpenseToday.jsx";
 import Variation from "./components/Variation/Variation.jsx";
 import Graph from "./components/Graph/Graph.jsx";
 
