@@ -4,9 +4,9 @@ const AppContext = createContext();
 
 export const AppProvider = ({ children }) => {
   //estado inicial para los datos
-  const [totalBalance, setTotalBalance] = useState(3323);
-  const [expenseToday, setExpenseToday] = useState(75.46);
-  const [variation, setVariation] = useState(2.4);
+  const [totalBalance, setTotalBalance] = useState(0);
+  const [expenseToday, setExpenseToday] = useState(0);
+  const [variation, setVariation] = useState(0);
 
   //datos para la grafica
   const [expensesData, setExpensesData] = useState([
