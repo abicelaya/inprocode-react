@@ -1,0 +1,17 @@
+{
+  "variation": "Variació",
+  "respectoAyer": "respecte a ahir",
+  "days": {
+    "today": "Dissabte",
+    "yesterday": "Divendres"
+  },
+  "expenseToday": {
+    "title": "Despesa d'avui"
+  },
+  "totalBalance": {
+    "title": "Balanç total de la setmana"
+  },
+  "graph": {
+    "title": "Despeses - Última setmana"
+  }
+}

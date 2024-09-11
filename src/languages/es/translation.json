@@ -1,0 +1,17 @@
+{
+  "variation": "Variación",
+  "respectoAyer": "respecto a ayer",
+  "days": {
+    "today": "Sábado",
+    "yesterday": "Viernes"
+  },
+  "expenseToday": {
+    "title": "Gasto de Hoy"
+  },
+  "totalBalance": {
+    "title": "Balance Total de la Semana"
+  },
+  "graph": {
+    "title": "Gastos - Última semana"
+  }
+}
