@@ -1,8 +1,8 @@
 import React from "react";
 import { AppProvider } from "./AppContext";
 
-const CustomProvider = ({ children, expensesData }) => (
-  <AppProvider value={{ expensesData }}>{children}</AppProvider>
+const CustomProvider = ({ children }) => (
+  <AppProvider>{children}</AppProvider>
 );
 
 export default CustomProvider;

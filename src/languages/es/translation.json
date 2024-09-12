@@ -2,8 +2,13 @@
   "variation": "Variación",
   "respectoAyer": "respecto a ayer",
   "days": {
-    "today": "Sábado",
-    "yesterday": "Viernes"
+    "sábado": "Sábado",
+    "viernes": "Viernes",
+    "domingo": "Domingo",
+    "lunes": "Lunes",
+    "martes": "Martes",
+    "miércoles": "Miércoles",
+    "jueves": "Jueves"
   },
   "expenseToday": {
     "title": "Gasto de Hoy"

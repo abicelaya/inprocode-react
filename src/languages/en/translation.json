@@ -2,8 +2,13 @@
   "variation": "Variation",
   "respectoAyer": "compared to yesterday",
   "days": {
-    "today": "Saturday",
-    "yesterday": "Friday"
+    "saturday": "Saturday",
+    "friday": "Friday",
+    "sunday": "Sunday",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday"
   },
   "expenseToday": {
     "title": "Today's Expense"

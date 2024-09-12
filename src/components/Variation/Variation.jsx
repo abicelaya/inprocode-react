@@ -4,11 +4,12 @@ import { useTranslation } from "react-i18next";
 
 const Variation = () => {
   const { t } = useTranslation();
-  const { expensesData } = useAppContext();
+  const { expensesData, currentDay } = useAppContext();
 
-  const today = "Sábado";
-  const yesterday = "Viernes";
-
+  const today = currentDay;
+  const yesterdayIndex = (new Date().getDay() + 6) % 7;
+  const yesterday = expensesData[yesterdayIndex-1]?.day;
+  
   const todayExpense =
     expensesData.find((expense) => expense.day === today)?.amount || 0;
   const yesterdayExpense =
