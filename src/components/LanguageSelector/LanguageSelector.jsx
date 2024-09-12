@@ -1,10 +1,13 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import englishFlag from "../../assets/english-flag.png"
+import spanishFlag from "../../assets/spanish-flag.png"
+import catalanFlag from "../../assets/catalan-flag.png"
 
 const flagUrls = {
-  en: '/src/assets/english-flag.png', 
-  es: '/src/assets/spanish-flag.png',  
-  ca: '/src/assets/catalan-flag.png',  
+  en: englishFlag, 
+  es: spanishFlag,  
+  ca: catalanFlag,  
 };
 
 const LanguageSelector = () => {
