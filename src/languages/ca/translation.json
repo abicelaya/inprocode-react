@@ -2,19 +2,19 @@
   "variation": "Variació",
   "respectoAyer": "Respecte a ahir",
   "days": {
-    "dissabte": "Dissabte",
-    "divendres": "Divendres",
-    "diumenge": "Diumenge",
-    "dilluns": "Dilluns",
-    "dimarts": "Dimarts",
-    "dimecres": "Dimecres",
-    "dijous": "Dijous"
+    "sábado": "Dissabte",
+    "viernes": "Divendres",
+    "domingo": "Diumenge",
+    "lunes": "Dilluns",
+    "martes": "Dimarts",
+    "miércoles": "Dimecres",
+    "jueves": "Dijous"
   },
   "expenseToday": {
     "title": "Despesa d'avui"
   },
   "totalBalance": {
-    "title": "Saldo Total de la Setmana"
+    "title": "Balanç total"
   },
   "chartTitle": "Despeses - Última setmana",
   "weeklyExpenses": "Despeses Setmanals",
