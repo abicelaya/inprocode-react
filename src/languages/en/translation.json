@@ -1,22 +1,23 @@
 {
   "variation": "Variation",
-  "respectoAyer": "compared to yesterday",
+  "respectoAyer": "Compared to yesterday",
   "days": {
-    "sábado": "Saturday",
-    "viernes": "Friday",
-    "domingo": "Sunday",
-    "lunes": "Monday",
-    "martes": "Tuesday",
-    "miércoles": "Wednesday",
-    "jueves": "Thursday"
+    "saturday": "Saturday",
+    "friday": "Friday",
+    "sunday": "Sunday",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday"
   },
   "expenseToday": {
-    "title": "Today's Expense"
+    "title": "Expense Today"
   },
   "totalBalance": {
-    "title": "Total Balance of the Week"
+    "title": "Total Balance for the Week"
   },
-  "graph": {
-    "title": "Expenses - Last Week"
-  }
+  "chartTitle": "Expenses - Last Week",
+  "weeklyExpenses": "Weekly Expenses",
+  "daysOfWeek": "Days of the Week",
+  "expenses": "Expenses"
 }

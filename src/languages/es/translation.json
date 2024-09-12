@@ -16,7 +16,8 @@
   "totalBalance": {
     "title": "Balance Total de la Semana"
   },
-  "graph": {
-    "title": "Gastos - Última semana"
-  }
+  "chartTitle": "Gastos - Última semana",
+  "weeklyExpenses": "Despesas Semanales",
+  "daysOfWeek": "Días de la Semana",
+  "expenses": "Despesas"
 }
