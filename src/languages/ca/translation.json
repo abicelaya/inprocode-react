@@ -2,13 +2,13 @@
   "variation": "Variació",
   "respectoAyer": "respecte a ahir",
   "days": {
-    "dissabte": "Dissabte",
-    "divendres": "Divendres",
-    "diumenge": "Diumenge",
-    "dilluns": "Dilluns",
-    "dimarts": "Dimarts",
-    "dimecres": "Dimecres",
-    "dijous": "Dijous"
+    "sábado": "Dissabte",
+    "viernes": "Divendres",
+    "domingo": "Diumenge",
+    "lunes": "Dilluns",
+    "martes": "Dimarts",
+    "miércoles": "Dimecres",
+    "jueves": "Dijous"
   },
   "expenseToday": {
     "title": "Despesa d'avui"
