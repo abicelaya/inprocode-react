@@ -21,10 +21,9 @@ const Variation = () => {
       : ((todayExpense - yesterdayExpense) / yesterdayExpense) * 100;
 
   return (
-    <div className="p-4 rounded-lg shadow-md">
-      <h2 className="text-2xl font-semibold">{t("variation")}</h2>
-      <p className="text-xl mt-2">{variation.toFixed(2)}%</p>
-      <p>{t("respectoAyer")}</p>
+    <div className="p-4 rounded-2xl ">
+      <p className="font-bold mt-2">{variation.toFixed(2)}%</p>
+      <p className="font-bold">{t("respectoAyer")}</p>
     </div>
   );
 };

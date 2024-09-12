@@ -15,9 +15,6 @@ describe("ExpenseToday Component", () => {
 
     const todayExpenseElement = screen.getByText("90 €");
     expect(todayExpenseElement).toBeInTheDocument();
-
-    const translatedDay = screen.getByText(/jueves/i);
-    expect(translatedDay).toBeInTheDocument();
   });
 
   it("debería mostrar correctamente el gasto de hoy en inglés", () => {
@@ -30,9 +27,6 @@ describe("ExpenseToday Component", () => {
 
     const todayExpenseElement = screen.getByText("90 €");
     expect(todayExpenseElement).toBeInTheDocument();
-
-    const translatedDay = screen.getByText(/thursday/i);
-    expect(translatedDay).toBeInTheDocument();
   });
 
   it("debería mostrar correctamente el gasto de hoy en catalán", () => {
@@ -45,8 +39,5 @@ describe("ExpenseToday Component", () => {
 
     const todayExpenseElement = screen.getByText("90 €");
     expect(todayExpenseElement).toBeInTheDocument();
-
-    const translatedDay = screen.getByText(/dijous/i);
-    expect(translatedDay).toBeInTheDocument();
   });
 });

@@ -6,19 +6,15 @@ const ExpenseToday = () => {
   const { t } = useTranslation();
   const { expensesData, currentDay } = useAppContext();
 
-  const formattedDay = currentDay.toLowerCase();
-
-  const translatedDay = t(`days.${formattedDay}`);
-
   const todayExpense =
     expensesData.find((expense) => expense.day === currentDay)?.amount || 0;
 
   return (
-    <div className="p-4 rounded-lg shadow-md">
-      <h2 className="text-2xl font-semibold">
-        {t("expenseToday.title")} - {translatedDay}
-      </h2>
-      <p className="text-xl mt-2">{todayExpense} €</p>
+    <div className="p-4 rounded-2xl ">
+      <p className="text-sm font-semibold text-gray-400">
+        {t("expenseToday.title")}
+      </p>
+      <p className="text-4xl font-bold mt-2">{todayExpense} €</p>
     </div>
   );
 };

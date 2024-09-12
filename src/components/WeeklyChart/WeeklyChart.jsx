@@ -28,6 +28,7 @@ const WeeklyChart = () => {
   const labels = expensesData.map((expense) =>
     t(`days.${expense.day.toLowerCase()}`)
   );
+
   const data = expensesData.map((expense) => expense.amount);
 
   const currentDayIndex = expensesData.findIndex(
@@ -35,9 +36,7 @@ const WeeklyChart = () => {
   );
 
   const backgroundColors = expensesData.map((_, index) =>
-    index === currentDayIndex
-      ? "rgba(255, 99, 132, 0.5)"
-      : "rgba(0, 123, 255, 0.5)"
+    index === currentDayIndex ? "#a9cce3" : "#ff8a65"
   );
 
   const chartData = {
@@ -47,8 +46,9 @@ const WeeklyChart = () => {
         label: t("weeklyExpenses"),
         data,
         backgroundColor: backgroundColors,
-        borderColor: "#007bff",
-        borderWidth: 1,
+        borderColor: "transparent",
+        borderWidth: 0,
+        borderRadius: 6,
       },
     ],
   };
@@ -72,20 +72,45 @@ const WeeklyChart = () => {
         title: {
           display: false,
         },
+        grid: {
+          display: false,
+        },
+        ticks: {
+          color: "#6b7280",
+          font: {
+            family: "Montserrat, sans-serif",
+          },
+        },
       },
       y: {
         title: {
           display: false,
         },
         beginAtZero: true,
+        grid: {
+          display: false,
+        },
+        ticks: {
+          color: "#6b7280",
+          font: {
+            family: "Montserrat, sans-serif",
+          },
+        },
       },
     },
   };
 
   return (
-    <div className="p-4 rounded-lg shadow-md">
-      <h2 className="text-2xl font-semibold">{t("chartTitle")}</h2>
-      <Bar data={chartData} options={options} />
+    <div className="p-6 rounded-2xl shadow-none bg-white">
+      <h2
+        className="text-2xl font-semibold mb-4"
+        style={{ fontFamily: "Montserrat, sans-serif" }}
+      >
+        {t("chartTitle")}
+      </h2>
+      <div className="p-4">
+        <Bar data={chartData} options={options} />
+      </div>
     </div>
   );
 };

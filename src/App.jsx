@@ -1,11 +1,10 @@
 import React from "react";
 import { AppProvider } from "./context/AppContext.jsx";
-import './i18n';
+import "./i18n";
 import TotalBalance from "./components/TotalBalance/TotalBalance.jsx";
-import ExpenseToday from "./components/ExpenseToday/ExpenseToday.jsx";
-import Variation from "./components/Variation/Variation.jsx";
-import WeeklyChart from "./components/WeeklyChart/WeeklyChart.jsx"
+import WeeklyChart from "./components/WeeklyChart/WeeklyChart.jsx";
 import LanguageSelector from "./components/LanguageSelector/LanguageSelector.jsx";
+import ExpensesOverview from "./components/ExpensesOverview/ExpensesOverview.jsx";
 
 const App = () => {
   return (
@@ -15,8 +14,7 @@ const App = () => {
         <div className="w-full md:w-1/3 p-6 flex flex-col gap-6">
           <TotalBalance />
           <WeeklyChart />
-          <ExpenseToday />
-          <Variation />
+          <ExpensesOverview />
         </div>
       </div>
     </AppProvider>

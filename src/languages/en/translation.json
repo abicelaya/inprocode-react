@@ -1,14 +1,14 @@
 {
   "variation": "Variation",
-  "respectoAyer": "Compared to yesterday",
+  "respectoAyer": "compared to yesterday",
   "days": {
-    "sábado": "Saturday",
-    "viernes": "Friday",
-    "domingo": "Sunday",
-    "lunes": "Monday",
-    "martes": "Tuesday",
-    "miércoles": "Wednesday",
-    "jueves": "Thursday"
+    "sábado": "Sat",
+    "viernes": "Fri",
+    "domingo": "Sun",
+    "lunes": "Mon",
+    "martes": "Tue",
+    "miércoles": "Wed",
+    "jueves": "Thu"
   },
   "expenseToday": {
     "title": "Expense Today"

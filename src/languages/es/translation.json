@@ -1,14 +1,14 @@
 {
   "variation": "Variación",
-  "respectoAyer": "Respecto a ayer",
+  "respectoAyer": "respecto a ayer",
   "days": {
-    "sábado": "Sábado",
-    "viernes": "Viernes",
-    "domingo": "Domingo",
-    "lunes": "Lunes",
-    "martes": "Martes",
-    "miércoles": "Miércoles",
-    "jueves": "Jueves"
+    "sábado": "Sab",
+    "viernes": "Vie",
+    "domingo": "Dom",
+    "lunes": "Lun",
+    "martes": "Mar",
+    "miércoles": "Mie",
+    "jueves": "Jue"
   },
   "expenseToday": {
     "title": "Gasto de Hoy"
